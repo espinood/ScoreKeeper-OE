@@ -13,6 +13,9 @@
 		0A3DE7852430365B002F7E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE7832430365B002F7E21 /* Main.storyboard */; };
 		0A3DE7872430365D002F7E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE7862430365D002F7E21 /* Assets.xcassets */; };
 		0A3DE78A2430365D002F7E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE7882430365D002F7E21 /* LaunchScreen.storyboard */; };
+		0A3DE79424306F5E002F7E21 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE79124306F5D002F7E21 /* Icon@2x.png */; };
+		0A3DE79524306F5E002F7E21 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE79224306F5D002F7E21 /* Icon-72.png */; };
+		0A3DE79624306F5E002F7E21 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DE79324306F5E002F7E21 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0A3DE7862430365D002F7E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3DE7892430365D002F7E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A3DE78B2430365D002F7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3DE79124306F5D002F7E21 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0A3DE79224306F5D002F7E21 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0A3DE79324306F5E002F7E21 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				0A3DE77D2430365B002F7E21 /* AppDelegate.swift */,
 				0A3DE77F2430365B002F7E21 /* SceneDelegate.swift */,
 				0A3DE7812430365B002F7E21 /* ViewController.swift */,
+				0A3DE79224306F5D002F7E21 /* Icon-72.png */,
+				0A3DE79324306F5E002F7E21 /* Icon.png */,
+				0A3DE79124306F5D002F7E21 /* Icon@2x.png */,
 				0A3DE7832430365B002F7E21 /* Main.storyboard */,
 				0A3DE7862430365D002F7E21 /* Assets.xcassets */,
 				0A3DE7882430365D002F7E21 /* LaunchScreen.storyboard */,
@@ -125,7 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3DE79624306F5E002F7E21 /* Icon.png in Resources */,
 				0A3DE78A2430365D002F7E21 /* LaunchScreen.storyboard in Resources */,
+				0A3DE79524306F5E002F7E21 /* Icon-72.png in Resources */,
+				0A3DE79424306F5E002F7E21 /* Icon@2x.png in Resources */,
 				0A3DE7872430365D002F7E21 /* Assets.xcassets in Resources */,
 				0A3DE7852430365B002F7E21 /* Main.storyboard in Resources */,
 			);
@@ -293,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.rosehulman.espinood.ScoreKeeper-OE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.rosehulman.espinood.ScoreKeeper-OE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
